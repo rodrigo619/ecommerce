@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "name": "CheckoutCreatedEvent",
+    "namespace": "br.digitalinnovationone.ecommerce.checkout.event",
+    "fields": [
+        {
+            "name": "checkoutCode",
+            "type": ["string"]
+        },
+        {
+            "name": "status",
+            "type": ["string"]
+        }
+    ]
+}
